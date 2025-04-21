@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>my head file</title>
+        <style>
+            body{
+                background-color: black;
+                display: -webkit-flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                color: white;
+            }
+            .glow{
+                font-size: 3rem;
+                text-shadow: 0 0 10px white,0 0 20px #fff00fff,0 0 40px #ffffff3d;
+                animation: glow 1.5s infinite alternate;
+            }
+            @keyframes glow{
+                    from{text-shadow: 0 0 5px blueviolet;}
+                    to{text-shadow: 0 0 20px brown,0040px orange;}
+            }
+        </style>
+    </head>
+    <h1 class="glow">This is Geovanie Profile</h1>
+</html>
